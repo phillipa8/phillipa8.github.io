@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phillip's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Phillip's Website</h1>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="game.html">GAME</a>
+    </nav>
+    <div class="sidebar">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://ct.ritsumei.ac.jp/ct/home" target="_blank">manaba +R</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a href="https://chat.openai.com/chat" target="_blank">ChatGPT</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Phil's Game</h2>
+        <form id="quizForm">
+            <label for="username">Enter your name:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <div id="quiz">
+            </div>
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+    </div>
+    <div class="contact">
+        <h3>Contact Me</h3>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+    <footer>
+        <p>Date of Creation: 2024-07-16</p>
+        <p><a href="https://www.instagram.com/phillipanderson/" target="_blank">Instagram</a></p>
+    </footer>
+</body>
+</html>
